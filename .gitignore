@@ -1,0 +1,100 @@
+
+# ==============================
+# Python Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Frontend Dependencies
+# ==============================
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+
+# ==============================
+# IDE and Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Build and Distribution
+# ==============================
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# ==============================
+# Database Files
+# ==============================
+*.sqlite3
+*.db
+
+# ==============================
+# Model Checkpoints (review before uploading)
+# ==============================
+# Uncomment if model files are too large or private:
+# *.pth
+# *.pt
+# *.h5
+# *.onnx
+# Patient data and uploaded files
+koa-assist-backend/uploads/
+**/uploads/
+
+# Training outputs and cache
+koa-assist-backend/runs/
+*.cache
+
+# Sensitive data
+.env
+.env.*
+!.env.example

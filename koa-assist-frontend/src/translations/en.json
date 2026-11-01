@@ -1,0 +1,841 @@
+{
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "assamese": "অসমীয়া"
+  },
+  "brand": {
+    "subtitle": "AI Healthcare",
+    "screening": "AI-assisted screening"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "assessments": "Assessments",
+    "history": "History",
+    "reports": "Reports"
+  },
+  "common": {
+    "signOut": "Sign out",
+    "viewAll": "View all",
+    "search": "Search"
+  },
+  "dashboard": {
+    "label": "CLINICAL OVERVIEW",
+    "greeting": "Good morning",
+    "description": "Review patients and AI-assisted osteoarthritis risk indicators.",
+    "stats": {
+      "totalPatients": "TOTAL PATIENTS",
+      "patientsThisMonth": "+8 this month",
+      "assessments": "ASSESSMENTS",
+      "pending": "12 pending",
+      "needAttention": "NEED ATTENTION",
+      "highRisk": "4 high risk",
+      "completed": "COMPLETED",
+      "completion": "87% completion"
+    },
+    "quickActions": {
+      "title": "Quick actions",
+      "description": "Manage patients and review clinical reports.",
+      "newPatient": "New Patient",
+      "newPatientDescription": "Register a patient for screening",
+      "viewReports": "View Reports",
+      "viewReportsDescription": "Review generated clinical reports"
+    },
+    "attention": {
+      "title": "Patients requiring attention",
+      "description": "Patients with elevated AI-assisted risk indicators."
+    },
+    "table": {
+      "patient": "Patient",
+      "age": "Age",
+      "assessment": "Assessment",
+      "risk": "Risk",
+      "lastAssessment": "Last Assessment"
+    },
+    "search": {
+      "title": "Find a patient",
+      "description": "Search by patient name or patient ID.",
+      "placeholder": "Search patient name or ID..."
+    },
+    "disclaimer": {
+      "title": "AI-assisted clinical screening",
+      "description": "KOA Assist provides risk indicators and analysis to support healthcare professionals. Results are not intended to replace clinical diagnosis."
+    }
+  },
+  "risk": {
+    "high": "High",
+    "moderate": "Moderate",
+    "low": "Low"
+  },
+  "login": {
+    "hero": {
+      "badge": "AI-ASSISTED HEALTHCARE",
+      "titleLine1": "Early Detection.",
+      "titleLine2": "Better Mobility.",
+      "description": "An intelligent system for early assessment of osteoarthritis risk using gait analysis, medical imaging, sensor data and patient responses.",
+      "footer": "AI-powered osteoarthritis risk assessment"
+    },
+    "title": {
+      "signIn": "Welcome back",
+      "createAccount": "Create your account"
+    },
+    "subtitle": {
+      "signIn": "Sign in to continue to your KOA Assist dashboard.",
+      "createAccount": "Create an account to begin your osteoarthritis assessment."
+    },
+    "fields": {
+      "fullName": "Full name",
+      "email": "Email address",
+      "password": "Password"
+    },
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "email": "Enter your email",
+      "password": "Enter your password"
+    },
+    "buttons": {
+      "signIn": "Sign in",
+      "createAccount": "Create account"
+    },
+    "switch": {
+      "noAccount": "Don't have an account?",
+      "haveAccount": "Already have an account?",
+      "createAccount": "Create account",
+      "signIn": "Sign in"
+    },
+    "errors": {
+      "fillAllFields": "Please fill in all fields.",
+      "emailExists": "An account with this email already exists.",
+      "noAccount": "No account found. Please create an account first.",
+      "incorrectCredentials": "Incorrect email or password."
+    },
+    "success": {
+      "accountCreated": "Account created successfully. You can now sign in."
+    },
+    "footer": "KOA Assist · AI-assisted osteoarthritis assessment"
+  },
+  "patients": {
+    "breadcrumb": "Patients",
+    "title": "Patients",
+    "description": "Register, search and manage patients before starting an osteoarthritis assessment.",
+    "gender": {
+      "female": "Female",
+      "male": "Male",
+      "other": "Other",
+      "preferNotToSay": "Prefer not to say"
+    },
+    "actions": {
+      "register": "Register Patient",
+      "viewProfile": "View Profile",
+      "startAssessment": "Start Assessment",
+      "delete": "Delete",
+      "deleting": "Deleting..."
+    },
+    "search": {
+      "placeholder": "Search by patient name, patient ID or phone number...",
+      "clear": "Clear search"
+    },
+    "records": {
+      "title": "Patient Records",
+      "none": "No registered patients",
+      "patient": "patient",
+      "patients": "patients"
+    },
+    "empty": {
+      "title": "No patients registered yet",
+      "description": "Register a patient to begin an osteoarthritis screening assessment.",
+      "button": "Register First Patient"
+    },
+    "noMatch": {
+      "title": "No matching patients",
+      "description": "Try searching with a different patient name, ID or phone number."
+    },
+    "patientMeta": {
+      "years": "years"
+    },
+    "modal": {
+      "eyebrow": "PATIENT REGISTRATION",
+      "title": "Register New Patient",
+      "description": "Enter the patient's basic information to create a screening record.",
+      "close": "Close",
+      "cancel": "Cancel"
+    },
+    "form": {
+      "name": "Patient Name",
+      "namePlaceholder": "Enter full name",
+      "age": "Age",
+      "agePlaceholder": "Age",
+      "gender": "Gender",
+      "select": "Select",
+      "female": "Female",
+      "male": "Male",
+      "other": "Other",
+      "preferNotToSay": "Prefer not to say",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Phone number",
+      "email": "Email",
+      "emailPlaceholder": "Email address"
+    },
+    "errors": {
+      "nameRequired": "Patient name is required.",
+      "ageRequired": "Patient age is required.",
+      "genderRequired": "Please select the patient's gender."
+    }
+  },
+  "patientProfile": {
+    "breadcrumb": "Profile",
+    "patientId": "Patient ID",
+    "actions": {
+      "back": "Back to Patients",
+      "return": "Return to Patients"
+    },
+    "notFound": {
+      "title": "Patient not found",
+      "description": "This patient record could not be found."
+    },
+    "information": {
+      "title": "Patient Information",
+      "age": "Age",
+      "years": "years",
+      "gender": "Gender",
+      "phone": "Phone",
+      "email": "Email",
+      "notProvided": "Not provided"
+    },
+    "history": {
+      "title": "Assessment History",
+      "empty": "No assessments recorded yet.",
+      "startFirst": "Start First Assessment"
+    }
+  },
+  "newAssessment": {
+    "breadcrumb": "New Assessment",
+    "title": "New Osteoarthritis Assessment",
+    "description": "Complete the required questionnaire and gait assessment before proceeding to additional assessment data.",
+    "actions": {
+      "back": "Back to Patient Profile",
+      "startQuestionnaire": "Start Questionnaire"
+    },
+    "required": {
+      "title": "Required Assessment",
+      "description": "Both components must be completed for every KOA Assist assessment."
+    },
+    "steps": {
+      "questionnaire": {
+        "title": "Questionnaire",
+        "description": "Record pain, stiffness, mobility and daily physical difficulty."
+      },
+      "gait": {
+        "title": "Gait Video",
+        "description": "Capture the patient's gait movement for AI-assisted movement analysis."
+      }
+    },
+    "optional": {
+      "title": "Additional data is optional",
+      "description": "X-ray and sensor assessments can be provided after the required questionnaire and gait assessment."
+    }
+  },
+  "questionnaire": {
+    "assessmentLabel": "KOA Screening Assessment",
+    "required": "Required",
+    "progress": {
+      "label": "Assessment Questionnaire",
+      "section": "Section",
+      "of": "of"
+    },
+    "actions": {
+      "backToAssessment": "Back to Assessment",
+      "viewDemonstration": "View demonstration",
+      "back": "Back",
+      "previous": "Previous",
+      "complete": "Complete Questionnaire",
+      "saveContinue": "Save & Continue"
+    },
+    "options": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "age": {
+      "placeholder": "Enter patient age",
+      "years": "years"
+    },
+    "likert": {
+      "0": "None",
+      "1": "Mild",
+      "2": "Moderate",
+      "3": "Severe",
+      "4": "Extreme"
+    },
+    "validation": {
+      "required": "Please answer all required questions before continuing."
+    },
+    "video": {
+      "title": "Movement Demonstration"
+    },
+    "sections": {
+      "general": {
+        "title": "General Information",
+        "description": "Basic information required for the assessment."
+      },
+      "right_knee_pain": {
+        "title": "Right Knee Pain Assessment",
+        "description": "Rate the level of pain experienced in the right knee."
+      },
+      "left_knee_pain": {
+        "title": "Left Knee Pain Assessment",
+        "description": "Rate the level of pain experienced in the left knee."
+      },
+      "stiffness": {
+        "title": "Joint Stiffness Assessment",
+        "description": "Rate the severity of stiffness in each knee."
+      },
+      "physical_difficulty": {
+        "title": "Daily Physical Difficulty",
+        "description": "Rate the difficulty experienced during everyday activities."
+      }
+    },
+    "questions": {
+      "biological_sex": {
+        "text": "Biological Sex"
+      },
+      "patient_age": {
+        "text": "Patient Age"
+      },
+      "right_pain_flat_ground": {
+        "text": "How much pain do you feel while walking on flat ground?"
+      },
+      "right_pain_stairs": {
+        "text": "How much pain do you feel while climbing up or down stairs?"
+      },
+      "right_pain_night": {
+        "text": "How much pain do you feel at night while in bed?"
+      },
+      "right_pain_rest": {
+        "text": "How much pain do you feel while sitting or lying down?"
+      },
+      "right_pain_standing": {
+        "text": "How much pain do you feel while standing upright?"
+      },
+      "left_pain_flat_ground": {
+        "text": "How much pain do you feel while walking on flat ground?"
+      },
+      "left_pain_stairs": {
+        "text": "How much pain do you feel while climbing up or down stairs?"
+      },
+      "left_pain_night": {
+        "text": "How much pain do you feel at night while in bed?"
+      },
+      "left_pain_rest": {
+        "text": "How much pain do you feel while sitting or lying down?"
+      },
+      "left_pain_standing": {
+        "text": "How much pain do you feel while standing upright?"
+      },
+      "right_stiffness_morning": {
+        "text": "How severe is your right knee joint stiffness right after waking up in the morning?"
+      },
+      "right_stiffness_rest": {
+        "text": "How severe is your right knee joint stiffness after sitting or resting later in the day?"
+      },
+      "left_stiffness_morning": {
+        "text": "How severe is your left knee joint stiffness right after waking up in the morning?"
+      },
+      "left_stiffness_rest": {
+        "text": "How severe is your left knee joint stiffness after sitting or resting later in the day?"
+      },
+      "difficulty_stairs": {
+        "text": "Difficulty climbing or descending stairs?"
+      },
+      "difficulty_rising": {
+        "text": "Difficulty rising from a seated position?"
+      },
+      "difficulty_bending": {
+        "text": "Difficulty bending down to the floor or picking up an object?"
+      },
+      "difficulty_vehicle": {
+        "text": "Difficulty getting in or out of a vehicle / bus?"
+      },
+      "difficulty_heavy_work": {
+        "text": "Difficulty doing heavy household work or carrying loads?"
+      }
+    }
+  },
+  "videoAnalysis": {
+    "assessmentLabel": "Gait Video Assessment",
+    "eyebrow": "MOVEMENT ASSESSMENT",
+    "title": "Gait Video Capture",
+    "description": "Capture a clear walking sequence for AI-assisted gait analysis.",
+    "actions": {
+      "backToAssessment": "Back to Assessment",
+      "startCamera": "Start Camera",
+      "startRecording": "Start Recording",
+      "stopRecording": "Stop Recording",
+      "retake": "Retake",
+      "saving": "Saving...",
+      "useVideo": "Use This Video"
+    },
+    "stepIndicator": {
+      "label": "Assessment component",
+      "value": "Gait Video"
+    },
+    "instructions": {
+      "title": "Before recording",
+      "description": "Ensure the patient is ready and the walking area is clear.",
+      "items": [
+        "Position the camera so the patient's full body is visible.",
+        "Keep the camera steady during the walking sequence.",
+        "Ask the patient to walk naturally along the available path.",
+        "Ensure adequate lighting and minimal obstruction."
+      ]
+    },
+    "capture": {
+      "recordedTitle": "Recorded Gait Video",
+      "cameraTitle": "Camera Preview",
+      "recordedDescription": "Review the captured video before continuing.",
+      "cameraDescription": "Position the patient and start the camera when ready."
+    },
+    "recording": {
+      "rec": "REC",
+      "recording": "Recording"
+    },
+    "cameraPlaceholder": {
+      "title": "Camera not started",
+      "description": "Start the camera to begin the gait capture process."
+    },
+    "status": {
+      "camera": "Camera",
+      "recording": "Recording",
+      "videoReady": "Video Ready"
+    },
+    "footerNote": "The recorded video will be sent to the AI analysis pipeline after backend integration.",
+    "errors": {
+      "cameraAccess": "Unable to access the camera. Please allow camera permission and try again.",
+      "startCameraFirst": "Please start the camera before recording."
+    }
+  },
+  "additionalAssessment": {
+    "patientId": "Patient ID",
+    "actions": {
+      "backToGait": "Back to Gait Video",
+      "skip": "Skip",
+      "keepSkipped": "Keep Skipped"
+    },
+    "breadcrumb": "KOA Assist / Assessment / Additional Data",
+    "title": "Additional Assessment Data",
+    "description": "X-ray and sensor assessment are optional. Continue with whichever additional data is available.",
+    "required": {
+      "title": "Required assessment completed",
+      "description": "Questionnaire and gait video are complete. You may now provide optional X-ray or sensor data before continuing to AI analysis."
+    },
+    "optional": "Optional",
+    "status": {
+      "provided": "Provided",
+      "skipped": "Skipped"
+    },
+    "xray": {
+      "title": "X-Ray Assessment",
+      "description": "Upload a knee X-ray image if radiographic data is available. X-ray assessment can be provided independently.",
+      "upload": "Upload X-Ray",
+      "uploadAnother": "Upload Another X-Ray"
+    },
+    "sensor": {
+      "title": "Sensor Assessment",
+      "description": "Record synchronized lower-limb and trunk movement data using the sensor setup. Available after completing the required questionnaire and gait assessment.",
+      "record": "Record Sensors",
+      "recordAgain": "Record Again"
+    },
+    "continue": {
+      "title": "Ready to analyze?",
+      "description": "KOA Assist will analyze only the assessment data that has actually been provided.",
+      "button": "Continue to AI Analysis"
+    },
+    "footer": "Additional assessments are optional and depend on available clinical data."
+  },
+  "xrayAnalysis": {
+    "assessmentLabel": "X-Ray Analysis",
+    "eyebrow": "IMAGE ASSESSMENT",
+    "title": "Knee X-Ray Analysis",
+    "description": "Upload a suitable knee X-ray for AI-assisted image analysis.",
+    "actions": {
+      "backToGait": "Back to Gait Assessment",
+      "remove": "Remove",
+      "choose": "Choose X-Ray",
+      "saving": "Saving...",
+      "useXray": "Use This X-Ray"
+    },
+    "stepIndicator": {
+      "label": "Assessment component",
+      "value": "X-Ray"
+    },
+    "instructions": {
+      "title": "Before uploading",
+      "description": "Check that the image is clear and suitable for analysis.",
+      "items": [
+        "Upload a clear knee X-ray image.",
+        "Ensure the relevant knee region is clearly visible.",
+        "Avoid images with excessive blur or obstruction.",
+        "Confirm that the uploaded image belongs to the selected patient."
+      ]
+    },
+    "card": {
+      "previewTitle": "X-Ray Preview",
+      "uploadTitle": "Upload Knee X-Ray",
+      "previewDescription": "Review the uploaded image before continuing.",
+      "uploadDescription": "Select an image file from the device.",
+      "imageSelected": "Image selected"
+    },
+    "uploadArea": {
+      "title": "Upload knee X-ray",
+      "description": "Drag and drop an image here, or click to browse your device.",
+      "formats": "Supported image formats",
+      "alt": "Uploaded knee X-ray"
+    },
+    "status": {
+      "imageSelected": "Image Selected",
+      "aiAnalysis": "AI Analysis",
+      "results": "Results"
+    },
+    "footer": "AI-assisted analysis will be performed after backend integration. No diagnostic result is generated on this page.",
+    "errors": {
+      "invalidFile": "Please select a valid X-ray image file.",
+      "noFile": "Please upload a knee X-ray before continuing."
+    }
+  },
+  "sensorAnalysis": {
+    "patientId": "Patient ID",
+    "breadcrumb": "KOA Assist / Assessment / Sensors",
+    "title": "Sensor Assessment",
+    "description": "Collect synchronized movement data from the sensor setup for gait and mobility analysis.",
+    "actions": {
+      "backToAssessment": "Back to Assessment",
+      "startRecording": "Start Recording",
+      "stopRecording": "Stop Recording",
+      "recordAgain": "Record Again",
+      "completeAssessment": "Complete Assessment"
+    },
+    "instructions": {
+      "title": "Before starting",
+      "description": "Ensure all three sensor units are securely attached to the patient and the devices are powered on."
+    },
+    "connection": {
+      "title": "Sensor Connection",
+      "description": "Three synchronized sensor units are required.",
+      "awaiting": "Awaiting connection"
+    },
+    "device": {
+      "connected": "Connected",
+      "waiting": "Waiting for connection",
+      "unit": "Unit"
+    },
+    "recording": {
+      "title": "Movement Recording",
+      "description": "Start recording when the patient is ready to perform the required movement assessment.",
+      "status": {
+        "recording": "Recording movement data",
+        "completed": "Recording completed",
+        "ready": "Ready to record",
+        "recordingDescription": "Keep the patient moving according to the assessment protocol.",
+        "completedDescription": "Review the recording status before completing the assessment.",
+        "readyDescription": "Start the recording when all sensors are positioned correctly."
+      }
+    },
+    "footer": "Sensor data will be processed by the KOA Assist analysis pipeline."
+  },
+  "analysis": {
+    "patientId": "Patient ID",
+    "breadcrumb": "KOA Assist / Assessment / AI Analysis",
+    "title": "AI Analysis",
+    "description": "KOA Assist is processing the assessment data that has been provided.",
+    "actions": {
+      "backToAdditional": "Back to Additional Assessment"
+    },
+    "required": {
+      "title": "Required assessment completed",
+      "description": "Questionnaire and gait video are complete. Optional X-ray and sensor data are included only when provided."
+    },
+    "progressNotice": {
+      "title": "Analysis in progress",
+      "description": "Please keep this page open while the assessment data is being processed."
+    },
+    "completeNotice": {
+      "title": "Analysis processing complete",
+      "description": "The available assessment data has been processed and is ready for review."
+    },
+    "processing": {
+      "title": "Assessment Processing",
+      "description": "The analysis pipeline includes the mandatory questionnaire and gait assessment, along with any optional data provided."
+    },
+    "status": {
+      "processing": "Processing",
+      "complete": "Complete"
+    },
+    "steps": {
+      "questionnaire": {
+        "title": "Questionnaire Analysis",
+        "description": "Processing clinical questionnaire responses"
+      },
+      "gait": {
+        "title": "Gait Analysis",
+        "description": "Analyzing recorded gait movement patterns"
+      },
+      "xray": {
+        "title": "X-Ray Analysis",
+        "description": "Analyzing the uploaded knee X-ray"
+      },
+      "sensors": {
+        "title": "Sensor Analysis",
+        "description": "Processing synchronized movement sensor data"
+      },
+      "fusion": {
+        "title": "Multimodal Analysis",
+        "description": "Combining findings from the available assessment modalities"
+      }
+    },
+    "labels": {
+      "required": "Required",
+      "optional": "Optional"
+    },
+    "stepStatus": {
+      "completed": "Completed",
+      "completedDescription": "Analysis completed",
+      "processing": "Processing",
+      "waiting": "Waiting"
+    },
+    "inputs": {
+      "title": "Assessment Inputs",
+      "description": "Analysis is based only on the data actually provided for this assessment.",
+      "of": "of",
+      "provided": "provided",
+      "questionnaire": "Questionnaire",
+      "gait": "Gait Video",
+      "xray": "X-Ray",
+      "sensors": "Sensors",
+      "optionalNotProvided": "Optional · Not provided"
+    },
+    "resultReady": {
+      "title": "Analysis complete",
+      "description": "The available assessment data has been processed. Review the AI-assisted findings on the results page.",
+      "button": "View Results"
+    },
+    "footer": "KOA Assist provides AI-assisted analysis to support healthcare professionals. It does not replace professional clinical judgment."
+  },
+  "results": {
+    "patientId": "Patient ID",
+    "breadcrumb": "KOA Assist / Assessment / Results",
+    "title": "Assessment Results",
+    "description": "AI-assisted analysis of the available assessment data.",
+    "actions": {
+      "backToAssessment": "Back to Assessment",
+      "viewReport": "View Report"
+    },
+    "patientSummary": {
+      "patient": "Patient",
+      "defaultName": "Patient",
+      "years": "years",
+      "ageNotProvided": "Age not provided",
+      "genderNotProvided": "Gender not provided",
+      "status": "Assessment Status",
+      "analysisPending": "Analysis Pending",
+      "analysisCompleted": "Analysis Completed"
+    },
+    "aiResult": {
+      "title": "AI-Assisted Risk Assessment",
+      "description": "Overall osteoarthritis risk will be displayed after backend model analysis.",
+      "pendingTitle": "Analysis not available yet",
+      "pendingDescription": "The assessment inputs have been recorded, but the AI analysis service is not connected yet. Once the FastAPI backend and ML models are integrated, this section will display the validated risk category, confidence and model findings."
+    },
+    "assessmentInputs": {
+      "title": "Assessment Inputs",
+      "description": "Only the data actually provided during this assessment is included.",
+      "provided": "Provided",
+      "notProvided": "Not provided"
+    },
+    "inputs": {
+      "questionnaire": {
+        "title": "Questionnaire",
+        "description": "Pain, stiffness and functional assessment"
+      },
+      "gait": {
+        "title": "Gait Video",
+        "description": "Recorded gait movement assessment"
+      },
+      "xray": {
+        "title": "X-Ray",
+        "description": "Knee radiographic assessment"
+      },
+      "sensors": {
+        "title": "Sensor Assessment",
+        "description": "Synchronized movement sensor data"
+      }
+    },
+    "findings": {
+      "clinical": {
+        "title": "Clinical Assessment Findings",
+        "description": "Model-derived findings will appear here.",
+        "empty": "No AI-generated clinical findings are available until the backend analysis is completed."
+      },
+      "multimodal": {
+        "title": "Multimodal Analysis",
+        "description": "Combined interpretation of available modalities.",
+        "empty": "Fusion results will be generated from the validated assessment modalities available for this patient."
+      }
+    },
+    "guidance": {
+      "title": "Clinical Guidance",
+      "description": "Risk-based guidance will be provided by the backend analysis system after model inference. No clinical recommendation is generated by the frontend."
+    },
+    "disclaimer": {
+      "title": "AI-assisted screening only",
+      "description": "KOA Assist is intended to support healthcare professionals in early osteoarthritis risk screening. It is not a substitute for clinical examination, professional medical judgment or diagnosis."
+    },
+    "footer": {
+      "of": "of",
+      "modalitiesProvided": "assessment modalities provided",
+      "generateReport": "Generate Report"
+    }
+  },
+  "report": {
+    "date": {
+      "notAvailable": "Not available"
+    },
+    "actions": {
+      "backToResults": "Back to Results",
+      "print": "Print Report"
+    },
+    "brand": {
+      "subtitle": "AI-Assisted Osteoarthritis Screening"
+    },
+    "header": {
+      "eyebrow": "CLINICAL ASSESSMENT REPORT",
+      "title": "Osteoarthritis Screening Report",
+      "assessmentDate": "Assessment date"
+    },
+    "patientInformation": {
+      "title": "Patient Information",
+      "description": "Details associated with this assessment",
+      "name": "Patient Name",
+      "patientId": "Patient ID",
+      "age": "Age",
+      "years": "years",
+      "biologicalSex": "Biological Sex",
+      "notProvided": "Not provided"
+    },
+    "assessmentInputs": {
+      "title": "Assessment Inputs",
+      "description": "Data actually provided for this assessment",
+      "provided": "Provided",
+      "notProvided": "Not provided"
+    },
+    "inputs": {
+      "questionnaire": {
+        "title": "Questionnaire",
+        "description": "Pain, stiffness and functional assessment"
+      },
+      "gait": {
+        "title": "Gait Video",
+        "description": "Recorded gait movement assessment"
+      },
+      "xray": {
+        "title": "X-Ray",
+        "description": "Knee radiographic assessment"
+      },
+      "sensors": {
+        "title": "Sensor Assessment",
+        "description": "Synchronized movement sensor data"
+      }
+    },
+    "aiAnalysis": {
+      "title": "AI-Assisted Analysis",
+      "description": "Model-generated findings and risk assessment",
+      "pendingTitle": "AI analysis pending",
+      "pendingDescription": "The FastAPI backend and validated machine-learning models are not connected to this frontend yet. Risk level, confidence, model findings and clinical guidance will appear here after backend inference is integrated."
+    },
+    "clinicalFindings": {
+      "title": "Clinical Findings",
+      "description": "Findings generated from validated model analysis",
+      "empty": "No model-derived findings are available yet."
+    },
+    "guidance": {
+      "title": "Clinical Guidance",
+      "description": "Risk-based guidance from the analysis system",
+      "empty": "Clinical guidance will be generated by the backend after model inference."
+    },
+    "footer": {
+      "subtitle": "AI-assisted early osteoarthritis screening system"
+    },
+    "disclaimer": {
+      "title": "AI-assisted screening only",
+      "description": "KOA Assist is intended to support healthcare professionals in early osteoarthritis risk screening. This report does not replace clinical examination, professional medical judgment or diagnosis."
+    }
+  },
+  "assessments": {
+    "breadcrumb": "KOA Assist / Assessments",
+    "title": "Assessments",
+    "description": "Monitor and review patient osteoarthritis assessments.",
+    "actions": {
+      "viewPatients": "View Patients"
+    },
+    "filters": {
+      "all": "All",
+      "inProgress": "In Progress",
+      "processing": "Processing",
+      "completed": "Completed"
+    },
+    "search": {
+      "placeholder": "Search patient or assessment..."
+    },
+    "content": {
+      "allTitle": "All Assessments",
+      "assessment": "assessment",
+      "assessments": "assessments"
+    },
+    "empty": {
+      "title": "No assessments yet",
+      "description": "Assessments created for registered patients will appear here.",
+      "button": "Go to Patients"
+    },
+    "table": {
+      "patient": "Patient",
+      "assessment": "Assessment",
+      "status": "Status",
+      "date": "Date"
+    },
+    "disclaimer": {
+      "title": "AI-assisted clinical screening",
+      "description": "Assessment information and AI-assisted findings are intended to support healthcare professionals and do not replace clinical diagnosis."
+    }
+  },
+  "history": {
+    "breadcrumb": "KOA Assist / History",
+    "title": "Assessment History",
+    "description": "Review previously completed patient assessments and their analysis history.",
+    "search": {
+      "placeholder": "Search patient or assessment..."
+    },
+    "patientId": "Patient ID",
+    "empty": {
+      "title": "No assessment history",
+      "description": "Completed assessments will appear here once assessment records are available.",
+      "button": "Go to Patients"
+    }
+  },
+  "reports": {
+    "breadcrumb": "KOA Assist / Reports",
+    "title": "Reports",
+    "description": "Access generated assessment reports for your patient records.",
+    "search": {
+      "placeholder": "Search patient or report..."
+    },
+    "reportId": "Report ID",
+    "actions": {
+      "viewReport": "View Report"
+    },
+    "empty": {
+      "title": "No reports available",
+      "description": "Generated assessment reports will appear here once reports are created by the assessment system.",
+      "button": "Go to Patients"
+    }
+  }
+}
